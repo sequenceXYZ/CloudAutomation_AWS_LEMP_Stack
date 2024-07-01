@@ -1,12 +1,17 @@
-# Simple PHP Login Form with Nginx, MySQL, and PHP
+# Simple PHP Login Form with AWS Linux, Nginx, MySQL, and PHP
 
 ## Description
-This project demonstrates the setup of a simple PHP login form hosted on an Nginx server, using a MySQL database for storing user credentials. The setup instructions include all necessary steps to install the required software, configure the server, and create the database and tables for the login functionality.
+This project demonstrates the setup of a simple PHP login form hosted on an Nginx server, using a MySQL database for storing user credentials on AWS Linux. The setup instructions include all necessary steps to install the required software, configure the server, and create the database and tables for the login functionality.
 
 ## Files Included
 - **index.html**: This file contains the HTML form for user login, styled with basic CSS.
 - **index.php**: This file handles the form submission, connects to the MySQL database, and verifies the user's credentials.
 - **commands.txt**: This file provides detailed, step-by-step instructions to set up the server environment, including installation of Nginx, MySQL, and PHP, as well as configuration settings.
+
+## Launch AWS EC2 Linux instance
+- Log in to the AWS Management Console, navigate to the EC2 dashboard, and click on 'Launch Instance'
+- Select an Amazon Machine Image (AMI) with Linux, choose your instance type, configure the instance details, and click 'Launch'
+
 
 ## Setup Instructions
 Follow the steps outlined in `commands.txt` to set up your server environment.
